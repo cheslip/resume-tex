@@ -1,0 +1,80 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\Large\bf Cory Heslip}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{3257 South Fairfax Street}
+ \moveleft.5\hoffset\centerline{Denver, CO 80222}
+ \moveleft.5\hoffset\centerline{(720) 989-6512}
+
+
+\begin{resume}
+ 
+\section{PROFILE}  Aspiring software engineer with a unique background in both computer
+		and life sciences. A self-starter with a demonstrated ability to quickly learn and utilize a multitude of 
+		programming languages and technologies to solve problems and create new user experiences.
+ 
+\section{TECHNICAL \\ SKILLS}
+		{\sl Languages \& Technologies:} Python, Java, Objective-C, PHP, HTML, CSS, JavaScript, JQuery,
+		JSON, XML, REST, AJAX, MySQL, PostgreSQL, SQLite, Git \\
+		{\sl Software:} Eclipse, Netbeans, Xcode, PyCharm \\
+                	{\sl Operating Systems:} Unix (Mac OS), Windows, Linux, iOS, Android
+
+\section{PROJECTS}
+		{\sl Specimen Suitability App:}	iOS and Android app that aids the organ and tissue donor
+		community in determining the testing suitability of blood specimens. (Obj-C, Java). \\ \\
+		{\sl Specimen Archiver:} Web based application to simplify tracking and
+		storing laboratory specimens (PHP, MySQL). \\ \\ 
+		{\sl Open Garage:} Website for a social networking startup that aims to connect people with others in
+		order to learn a new hobby or skill (Python, Django framework).
+
+\section{EDUCATION} 
+		{\sl Master of Science,} Computer Software Engineering \\
+		Colorado Technical University, Denver, CO, expected 2014 \\
+		{\sl \indent Current GPA: } 3.3
+		
+		{\sl Bachelor of Arts,} Biology and Chemistry \\
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+                University of Colorado at Colorado Springs, Colorado Springs, CO, 
+                May 2010 \\ 
+		{\sl Associations:} Beta Beta Beta Biological Honor Society
+ 
+\section{EXPERIENCE}
+		{\sl Laboratory Technologist / Mobile App Developer} \hfill March 2011 - present \\
+                	{\bf VRL Laboratories},
+                	Infectious Disease Department, Centennial, CO 
+                 	\begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Created the VRL Specimen Suitability App for iPhone (and currently developing for Android). 
+			This app assists clients in determining specimen suitability.
+                	\item	Improved night shift logistics by creating a Microsoft Outlook script
+			to track incoming specimen shipments.
+		\item	Perform ELISA and nucleic acid testing on about 40 blood specimens per night.
+                	\end{itemize}
+ 
+                {\sl Web Application Developer / Co-Founder} \hfill            July 2012 - present \\
+                {\bf Open Garage},
+		currently in development
+                 	\begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Utilized the Django framework and many different web technologies to build a unique new social network from the ground up.
+		\item Created new features by using Python, JavaScript, JQuery and by customizing existing open source projects
+		\item Designed a simple and pleasing user interface using CSS and JavaScript.
+		\item Deployed the current state of the website to testers in order to gain feedback for improvements.
+                 	\end{itemize} 
+
+\end{resume}
+\end{document}
+
+
+
+
